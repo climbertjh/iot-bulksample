@@ -15,9 +15,9 @@ The programs interact with the Watson IoT Platform [Watson IoT](http://interneto
 4. Edit *config.json*. Add your organization's API-KEY and auth-token
 5. Edit *devices.json* to add the list of the multiple devices that are to be registered.
 6. Run the following command (from the src directory) to run the *bulkadd.js* script
-  'node bulkadd.js'  This will register the devices listed to the organization specified, using the device type specified.
+    'node bulkadd.js'  This will register the devices listed to the organization specified, using the device type specified.
 7. Run the following command to (from the src directory) run the *bulkdel.js* script
-  'node bulkdel.js'  This will un-register the devices listed which were previously registered to the organization specified.  The device type in *devices.json* is not used.
+    'node bulkdel.js'  This will un-register the devices listed which were previously registered to the organization specified.  The device type in *devices.json* is not used.
 
 **config.json**
 
@@ -30,7 +30,7 @@ Configuration file containing your organization credentials
       "auth-token": <auth-token>
     }
 
-Note - replace <orgid>, <api-key>, and <auth-token> with the values for your Watson IoT organizatiaon, application API key and application auth-token, respectively before running the programs.
+Note - replace &lt.orgid&gt., <api-key>, and <auth-token> with the values for your Watson IoT organizatiaon, application API key and application auth-token, respectively before running the programs.
 
 **devices.json**
 
