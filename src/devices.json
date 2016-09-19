@@ -1,0 +1,13 @@
+{
+  "devices" : [
+    {
+      "typeId": "raspi",
+      "deviceId": "device01"
+    },
+    {
+      "typeId": "raspi",
+      "deviceId": "device02"
+    }
+  ]
+}
+
